@@ -1,0 +1,57 @@
+CONTEXTO DEL PROYECTO - PORTFOLIO MAXIMILIANO QUINTANA
+Fecha de actualizacion: 2026-04-30
+
+OBJETIVO
+- Crear portfolio profesional para conseguir empleo como React/Node developer.
+- Construirlo mientras aprende y practica frontend/React.
+
+DATOS PERSONALES
+- Nombre: Maximiliano Quintana
+- Email: urumax@gmail.com
+- Ubicacion: Montevideo, Uruguay
+- GitHub: https://github.com/kasenawe
+- LinkedIn: https://www.linkedin.com/in/maximiliano-quintana-tabarez/
+
+PERFIL
+- 3 anos de experiencia laboral con SuiteCRM en PHP.
+- Trabajo con integraciones de APIs y webhooks.
+- Bootcamp en React y Node.js con JavaScript, HTML y CSS.
+- Punto a reforzar: frontend y React.
+
+PREFERENCIAS DEL PORTFOLIO
+- Stack: React + TypeScript + Vite.
+- Estilo: oscuro, enfoque tecnologia.
+- Idiomas: multi idioma (espanol/ingles).
+
+PROYECTOS A MOSTRAR
+1) Hackflix (clon de Netflix)
+- React SPA consumiendo TMDB API con AJAX.
+
+2) Ecommerce de joyeria infantil
+- Frontend: React + TypeScript + Vite + Tailwind.
+- Backend: Node.js + Express.
+
+3) App de quiropraxia
+- Frontend: React 19 + TypeScript + Vite + Tailwind.
+- Backend/servicios: Firebase (Firestore/Auth), Vercel Functions, Mercado Pago, Gemini API.
+
+ESTADO ACTUAL DEL CODIGO
+- Ya se creo base del portfolio y compila correctamente.
+- Secciones implementadas: Hero, Sobre mi, Proyectos, Contacto, Footer.
+- Selector de idioma ES/EN implementado sin librerias.
+- Tema oscuro responsive aplicado.
+
+ARCHIVOS CLAVE YA MODIFICADOS
+- src/App.tsx
+- src/index.css
+
+IMPORTANTE PARA CONTINUAR
+- Reemplazar URLs placeholder por los links reales de deploy y repos por proyecto.
+- Siguiente refactor recomendado:
+  a) separar en componentes por seccion,
+  b) extraer textos a archivos de traduccion,
+  c) agregar screenshots de proyectos,
+  d) agregar boton CV.
+
+PROMPT RAPIDO PARA NUEVO CHAT
+"Lee AGENT_CONTEXT.txt y continua el desarrollo del portfolio React desde ese estado. No reinicies el proyecto. Quiero seguir paso a paso para aprender frontend."
