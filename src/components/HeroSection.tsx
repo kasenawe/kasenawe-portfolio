@@ -1,4 +1,5 @@
 import type { Copy } from "../types/portfolio";
+import avatarImg from "../assets/avatar.jpg";
 
 type Props = {
   hero: Copy["hero"];
@@ -7,6 +8,7 @@ type Props = {
 export function HeroSection({ hero }: Props) {
   return (
     <section className="hero-section">
+      <img className="hero-avatar" src={avatarImg} alt={hero.title} />
       <p className="hero-badge">{hero.badge}</p>
       <h1>{hero.title}</h1>
       <p className="hero-subtitle">{hero.subtitle}</p>

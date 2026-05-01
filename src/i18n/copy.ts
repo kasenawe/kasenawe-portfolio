@@ -18,17 +18,17 @@ export const copyByLanguage: Record<Language, Copy> = {
     about: {
       title: "Perfil profesional",
       intro:
-        "Estoy en transicion hacia roles frontend/fullstack con React y Node.js, combinando experiencia real de negocio con nuevas practicas de producto.",
+        "Estoy en transición hacia roles frontend/fullstack con React y Node.js, combinando experiencia real de negocio con nuevas prácticas de producto.",
       points: [
-        "3 anos trabajando en PHP y SuiteCRM con integraciones de APIs y webhooks.",
+        "3 años trabajando en PHP y SuiteCRM con integraciones de APIs y webhooks.",
         "Bootcamp de React y Node.js con JavaScript, HTML y CSS.",
-        "Enfoque en mejorar habilidades frontend para aportar mas valor en equipos de producto.",
+        "Enfoque en mejorar habilidades frontend para aportar más valor en equipos de producto.",
       ],
     },
     projects: {
       title: "Proyectos destacados",
       intro:
-        "Estos proyectos muestran mi evolucion desde mis primeras apps hasta soluciones mas completas con frontend y backend.",
+        "Estos proyectos muestran mi evolución desde mis primeras apps hasta soluciones más completas con frontend y backend.",
       actions: {
         live: "Ver demo",
         repo: "Repositorio",
