@@ -35,8 +35,8 @@ export const copyByLanguage: Record<Language, Copy> = {
           description:
             "Clon de Netflix como SPA en React, consumiendo la API de TMDB mediante llamadas AJAX.",
           stack: ["React", "AJAX", "TMDB API"],
-          liveUrl: "https://hackflix.vercel.app",
-          repoUrl: "https://github.com/kasenawe",
+          liveUrl: "https://hackflix-react-nu.vercel.app/",
+          repoUrl: "https://github.com/kasenawe/hackflix-react",
         },
         {
           name: "Ecommerce Joyeria Infantil",
@@ -51,7 +51,7 @@ export const copyByLanguage: Record<Language, Copy> = {
             "Express",
           ],
           liveUrl: "https://lunaperla.vercel.app",
-          repoUrl: "https://github.com/kasenawe",
+          repoUrl: "https://github.com/kasenawe/lunaperla",
         },
         {
           name: "App de Quiropraxia",
@@ -65,8 +65,8 @@ export const copyByLanguage: Record<Language, Copy> = {
             "Mercado Pago",
             "Gemini API",
           ],
-          liveUrl: "https://quiropractica.vercel.app",
-          repoUrl: "https://github.com/kasenawe",
+          liveUrl: "https://enarmonia.vercel.app/",
+          repoUrl: "https://github.com/kasenawe/enarmonia",
         },
       ],
     },
