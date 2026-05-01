@@ -8,10 +8,10 @@ export const copyByLanguage: Record<Language, Copy> = {
       contact: "Contacto",
     },
     hero: {
-      badge: "Junior Developer | React + Node",
+      badge: "Full Stack Developer | React + Node",
       title: "Maximiliano Quintana",
       subtitle:
-        "Desarrollador con 3 anos de experiencia laboral en SuiteCRM, APIs y webhooks. Enfocado hoy en crear productos modernos con React y Node.js.",
+        "Desarrollador con 3 años de experiencia laboral en SuiteCRM, APIs y webhooks. Enfocado hoy en crear productos modernos con React y Node.js.",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Contactar",
     },
@@ -29,6 +29,10 @@ export const copyByLanguage: Record<Language, Copy> = {
       title: "Proyectos destacados",
       intro:
         "Estos proyectos muestran mi evolucion desde mis primeras apps hasta soluciones mas completas con frontend y backend.",
+      actions: {
+        live: "Ver demo",
+        repo: "Repositorio",
+      },
       items: [
         {
           name: "Hackflix",
@@ -39,7 +43,7 @@ export const copyByLanguage: Record<Language, Copy> = {
           repoUrl: "https://github.com/kasenawe/hackflix-react",
         },
         {
-          name: "Ecommerce Joyeria Infantil",
+          name: "Ecommerce Joyeria",
           description:
             "Ecommerce para Uruguay con frontend en React + TypeScript y backend en Node.js + Express.",
           stack: [
@@ -86,7 +90,7 @@ export const copyByLanguage: Record<Language, Copy> = {
       contact: "Contact",
     },
     hero: {
-      badge: "Junior Developer | React + Node",
+      badge: "Full Stack Developer | React + Node",
       title: "Maximiliano Quintana",
       subtitle:
         "Developer with 3 years of professional experience in SuiteCRM, APIs, and webhooks. Now focused on building modern products with React and Node.js.",
@@ -107,17 +111,21 @@ export const copyByLanguage: Record<Language, Copy> = {
       title: "Featured projects",
       intro:
         "These projects show my growth from early apps to more complete frontend and backend solutions.",
+      actions: {
+        live: "Live",
+        repo: "Repo",
+      },
       items: [
         {
           name: "Hackflix",
           description:
             "Netflix clone built as a React SPA, consuming TMDB API data through AJAX calls.",
           stack: ["React", "AJAX", "TMDB API"],
-          liveUrl: "https://hackflix.vercel.app",
-          repoUrl: "https://github.com/kasenawe",
+          liveUrl: "https://hackflix-react-nu.vercel.app/",
+          repoUrl: "https://github.com/kasenawe/hackflix-react",
         },
         {
-          name: "Kids Jewelry Ecommerce",
+          name: "Jewelry Ecommerce",
           description:
             "Ecommerce for Uruguay built with a React + TypeScript frontend and a Node.js + Express backend.",
           stack: [
@@ -129,7 +137,7 @@ export const copyByLanguage: Record<Language, Copy> = {
             "Express",
           ],
           liveUrl: "https://lunaperla.vercel.app",
-          repoUrl: "https://github.com/kasenawe",
+          repoUrl: "https://github.com/kasenawe/lunaperla",
         },
         {
           name: "Chiropractic App",
@@ -143,8 +151,8 @@ export const copyByLanguage: Record<Language, Copy> = {
             "Mercado Pago",
             "Gemini API",
           ],
-          liveUrl: "https://quiropractica.vercel.app",
-          repoUrl: "https://github.com/kasenawe",
+          liveUrl: "https://enarmonia.vercel.app/",
+          repoUrl: "https://github.com/kasenawe/enarmonia",
         },
       ],
     },

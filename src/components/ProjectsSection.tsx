@@ -18,10 +18,10 @@ export function ProjectsSection({ projects }: Props) {
             <p className="stack-line">{project.stack.join(" • ")}</p>
             <div className="project-actions">
               <a href={project.liveUrl} target="_blank" rel="noreferrer">
-                Live
+                {projects.actions.live}
               </a>
               <a href={project.repoUrl} target="_blank" rel="noreferrer">
-                Repo
+                {projects.actions.repo}
               </a>
             </div>
           </article>

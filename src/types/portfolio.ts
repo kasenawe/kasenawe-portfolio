@@ -29,6 +29,10 @@ export type Copy = {
   projects: {
     title: string;
     intro: string;
+    actions: {
+      live: string;
+      repo: string;
+    };
     items: Project[];
   };
   contact: {
