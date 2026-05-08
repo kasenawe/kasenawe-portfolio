@@ -60,16 +60,15 @@ export const copyByLanguage: Record<Language, Copy> = {
         {
           name: "App de Quiropraxia",
           description:
-            "Plataforma de reservas y pagos de sesiones con Firebase, Mercado Pago y asistente IA con Gemini.",
+            "Plataforma de reservas y pagos de sesiones con Firebase y Mercado Pago.",
           stack: [
             "React 19",
             "TypeScript",
             "Firebase",
             "Vercel Functions",
             "Mercado Pago",
-            "Gemini API",
           ],
-          liveUrl: "https://enarmonia.vercel.app/",
+          liveUrl: "https://soledadcedres.com.uy",
           repoUrl: "https://github.com/kasenawe/enarmonia",
         },
       ],
@@ -78,8 +77,8 @@ export const copyByLanguage: Record<Language, Copy> = {
       title: "Contacto",
       intro: "Estoy buscando una nueva oportunidad como React/Node developer.",
       emailLabel: "Email",
-      locationLabel: "Ubicacion",
-      openToWork: "Disponible para entrevistas y desafios tecnicos.",
+      locationLabel: "Ubicación",
+      openToWork: "Disponible para entrevistas y desafíos técnicos.",
     },
     footer: "Construido con React + TypeScript + Vite",
   },
@@ -142,16 +141,15 @@ export const copyByLanguage: Record<Language, Copy> = {
         {
           name: "Chiropractic App",
           description:
-            "Booking and online payment platform with Firebase, Mercado Pago, and a Gemini-powered AI assistant.",
+            "Booking and online payment platform with Firebase and Mercado Pago.",
           stack: [
             "React 19",
             "TypeScript",
             "Firebase",
             "Vercel Functions",
             "Mercado Pago",
-            "Gemini API",
           ],
-          liveUrl: "https://enarmonia.vercel.app/",
+          liveUrl: "https://soledadcedres.com.uy/",
           repoUrl: "https://github.com/kasenawe/enarmonia",
         },
       ],
