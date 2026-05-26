@@ -14,6 +14,8 @@ export const copyByLanguage: Record<Language, Copy> = {
         "Desarrollador con 3 años de experiencia laboral en SuiteCRM, APIs y webhooks. Enfocado hoy en crear productos modernos con React y Node.js.",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Contactar",
+      ctaResume: "Descargar CV",
+      resumeFileName: "maximiliano-quintana-resume-es.pdf",
     },
     about: {
       title: "Perfil profesional",
@@ -95,6 +97,8 @@ export const copyByLanguage: Record<Language, Copy> = {
         "Developer with 3 years of professional experience in SuiteCRM, APIs, and webhooks. Now focused on building modern products with React and Node.js.",
       ctaPrimary: "View projects",
       ctaSecondary: "Contact me",
+      ctaResume: "Download Resume",
+      resumeFileName: "maximiliano-quintana-resume-en.pdf",
     },
     about: {
       title: "Professional profile",

@@ -20,6 +20,8 @@ export type Copy = {
     subtitle: string;
     ctaPrimary: string;
     ctaSecondary: string;
+    ctaResume: string;
+    resumeFileName: string;
   };
   about: {
     title: string;

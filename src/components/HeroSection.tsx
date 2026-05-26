@@ -20,6 +20,13 @@ export function HeroSection({ hero }: Props) {
         <a className="btn btn-secondary" href="#contact">
           {hero.ctaSecondary}
         </a>
+        <a
+          className="btn btn-secondary"
+          href={`${import.meta.env.BASE_URL}resume/${hero.resumeFileName}`}
+          download
+        >
+          {hero.ctaResume}
+        </a>
       </div>
     </section>
   );
