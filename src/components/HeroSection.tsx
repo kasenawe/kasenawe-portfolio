@@ -1,5 +1,5 @@
 import type { Copy } from "../types/portfolio";
-import avatarImg from "../assets/avatar.jpg";
+import avatarImg from "../assets/avatar.png";
 
 type Props = {
   hero: Copy["hero"];
