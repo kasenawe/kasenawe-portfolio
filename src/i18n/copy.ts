@@ -3,7 +3,7 @@ import type { Language, Copy } from "../types/portfolio";
 export const copyByLanguage: Record<Language, Copy> = {
   es: {
     nav: {
-      about: "Sobre mi",
+      about: "Sobre mí",
       projects: "Proyectos",
       contact: "Contacto",
     },
@@ -11,7 +11,7 @@ export const copyByLanguage: Record<Language, Copy> = {
       badge: "Full Stack Developer | React + Node",
       title: "Maximiliano Quintana",
       subtitle:
-        "Desarrollador con 3 años de experiencia laboral en SuiteCRM, APIs y webhooks. Enfocado hoy en crear productos modernos con React y Node.js.",
+        "Desarrollador Fullstack con experiencia en React, TypeScript, Node.js, APIs e integraciones. Combino experiencia profesional en desarrollo backend/SuiteCRM con más de 12 años previos en tecnología, soporte, infraestructura y liderazgo técnico.",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Contactar",
       ctaResume: "Descargar CV",
@@ -20,34 +20,41 @@ export const copyByLanguage: Record<Language, Copy> = {
     about: {
       title: "Perfil profesional",
       intro:
-        "Estoy en transición hacia roles frontend/fullstack con React y Node.js, combinando experiencia real de negocio con nuevas prácticas de producto.",
+        "Fullstack Developer con experiencia en desarrollo de soluciones web reales, integrando frontend, backend, APIs, bases de datos y servicios externos.",
       points: [
-        "3 años trabajando en PHP y SuiteCRM con integraciones de APIs y webhooks.",
-        "Bootcamp de React y Node.js con JavaScript, HTML y CSS.",
-        "Enfoque en mejorar habilidades frontend para aportar más valor en equipos de producto.",
+        "Experiencia profesional en desarrollo backend, SuiteCRM, integraciones de APIs y webhooks.",
+        "Proyectos fullstack con React, TypeScript, Node.js, Firebase, Vercel Functions y Mercado Pago.",
+        "Más de 12 años de experiencia previa en tecnología, soporte, infraestructura, liderazgo técnico y contacto con usuarios.",
       ],
     },
     projects: {
       title: "Proyectos destacados",
       intro:
-        "Estos proyectos muestran mi evolución desde mis primeras apps hasta soluciones más completas con frontend y backend.",
+        "Soluciones desarrolladas de punta a punta, desde aplicaciones frontend hasta productos completos con backend, integraciones y despliegue en producción.",
       actions: {
         live: "Ver demo",
         repo: "Repositorio",
       },
       items: [
         {
-          name: "Hackflix",
+          name: "Soledad Cedres | Plataforma de reservas",
           description:
-            "Clon de Netflix como SPA en React, consumiendo la API de TMDB mediante llamadas AJAX.",
-          stack: ["React", "AJAX", "TMDB API"],
-          liveUrl: "https://hackflix-react-nu.vercel.app/",
-          repoUrl: "https://github.com/kasenawe/hackflix-react",
+            "Aplicación fullstack para gestión de turnos, servicios, disponibilidad horaria, pagos y administración interna para una profesional del área salud/bienestar.",
+          stack: [
+            "React 19",
+            "TypeScript",
+            "Firebase",
+            "Vercel Functions",
+            "Node.js",
+            "Mercado Pago",
+          ],
+          liveUrl: "https://soledadcedres.com.uy",
+          repoUrl: "https://github.com/kasenawe/enarmonia",
         },
         {
-          name: "Ecommerce Joyeria",
+          name: "Ecommerce Joyería",
           description:
-            "Ecommerce para Uruguay con frontend en React + TypeScript y backend en Node.js + Express.",
+            "Ecommerce para Uruguay con catálogo dinámico, variantes de productos, panel administrativo, backend en Node.js e integración con Mercado Pago.",
           stack: [
             "React",
             "TypeScript",
@@ -60,24 +67,19 @@ export const copyByLanguage: Record<Language, Copy> = {
           repoUrl: "https://github.com/kasenawe/lunaperla",
         },
         {
-          name: "App de Quiropraxia",
+          name: "Hackflix",
           description:
-            "Plataforma de reservas y pagos de sesiones con Firebase y Mercado Pago.",
-          stack: [
-            "React 19",
-            "TypeScript",
-            "Firebase",
-            "Vercel Functions",
-            "Mercado Pago",
-          ],
-          liveUrl: "https://soledadcedres.com.uy",
-          repoUrl: "https://github.com/kasenawe/enarmonia",
+            "Clon de Netflix desarrollado como SPA en React, consumiendo la API de TMDB mediante llamadas AJAX.",
+          stack: ["React", "AJAX", "TMDB API"],
+          liveUrl: "https://hackflix-react-nu.vercel.app/",
+          repoUrl: "https://github.com/kasenawe/hackflix-react",
         },
       ],
     },
     contact: {
       title: "Contacto",
-      intro: "Estoy buscando una nueva oportunidad como React/Node developer.",
+      intro:
+        "Estoy abierto a nuevas oportunidades como Fullstack Developer, especialmente en proyectos con React, Node.js, APIs e integraciones.",
       emailLabel: "Email",
       locationLabel: "Ubicación",
       openToWork: "Disponible para entrevistas y desafíos técnicos.",
@@ -94,7 +96,7 @@ export const copyByLanguage: Record<Language, Copy> = {
       badge: "Full Stack Developer | React + Node",
       title: "Maximiliano Quintana",
       subtitle:
-        "Developer with 3 years of professional experience in SuiteCRM, APIs, and webhooks. Now focused on building modern products with React and Node.js.",
+        "Fullstack Developer with experience in React, TypeScript, Node.js, APIs, and integrations. I combine professional backend/SuiteCRM development experience with 12+ years in technology, support, infrastructure, and technical leadership.",
       ctaPrimary: "View projects",
       ctaSecondary: "Contact me",
       ctaResume: "Download Resume",
@@ -103,34 +105,41 @@ export const copyByLanguage: Record<Language, Copy> = {
     about: {
       title: "Professional profile",
       intro:
-        "I am transitioning into frontend/fullstack roles with React and Node.js, combining business experience with modern product practices.",
+        "Fullstack Developer experienced in building real web solutions, integrating frontend, backend, APIs, databases, and third-party services.",
       points: [
-        "3 years working with PHP and SuiteCRM, including API and webhook integrations.",
-        "React and Node.js bootcamp with JavaScript, HTML, and CSS.",
-        "Focused on strengthening frontend skills to deliver more impact in product teams.",
+        "Professional experience in backend development, SuiteCRM, API integrations, and webhooks.",
+        "Fullstack projects with React, TypeScript, Node.js, Firebase, Vercel Functions, and Mercado Pago.",
+        "12+ years of previous experience in technology, support, infrastructure, technical leadership, and user-facing roles.",
       ],
     },
     projects: {
       title: "Featured projects",
       intro:
-        "These projects show my growth from early apps to more complete frontend and backend solutions.",
+        "End-to-end solutions ranging from frontend applications to complete products with backend logic, integrations, and production deployment.",
       actions: {
         live: "Live",
         repo: "Repo",
       },
       items: [
         {
-          name: "Hackflix",
+          name: "Soledad Cedres | Booking Platform",
           description:
-            "Netflix clone built as a React SPA, consuming TMDB API data through AJAX calls.",
-          stack: ["React", "AJAX", "TMDB API"],
-          liveUrl: "https://hackflix-react-nu.vercel.app/",
-          repoUrl: "https://github.com/kasenawe/hackflix-react",
+            "Fullstack application for appointment booking, services, schedule availability, payments, and internal administration for a health/wellness professional.",
+          stack: [
+            "React 19",
+            "TypeScript",
+            "Firebase",
+            "Vercel Functions",
+            "Node.js",
+            "Mercado Pago",
+          ],
+          liveUrl: "https://soledadcedres.com.uy/",
+          repoUrl: "https://github.com/kasenawe/enarmonia",
         },
         {
           name: "Jewelry Ecommerce",
           description:
-            "Ecommerce for Uruguay built with a React + TypeScript frontend and a Node.js + Express backend.",
+            "Ecommerce platform for Uruguay with dynamic catalog, product variants, admin panel, Node.js backend, and Mercado Pago integration.",
           stack: [
             "React",
             "TypeScript",
@@ -143,25 +152,19 @@ export const copyByLanguage: Record<Language, Copy> = {
           repoUrl: "https://github.com/kasenawe/lunaperla",
         },
         {
-          name: "Chiropractic App",
+          name: "Hackflix",
           description:
-            "Booking and online payment platform with Firebase and Mercado Pago.",
-          stack: [
-            "React 19",
-            "TypeScript",
-            "Firebase",
-            "Vercel Functions",
-            "Mercado Pago",
-          ],
-          liveUrl: "https://soledadcedres.com.uy/",
-          repoUrl: "https://github.com/kasenawe/enarmonia",
+            "Netflix clone built as a React SPA, consuming TMDB API data through AJAX calls.",
+          stack: ["React", "AJAX", "TMDB API"],
+          liveUrl: "https://hackflix-react-nu.vercel.app/",
+          repoUrl: "https://github.com/kasenawe/hackflix-react",
         },
       ],
     },
     contact: {
       title: "Contact",
       intro:
-        "I am actively looking for a new opportunity as a React/Node developer.",
+        "I am open to new opportunities as a Fullstack Developer, especially in projects involving React, Node.js, APIs, and integrations.",
       emailLabel: "Email",
       locationLabel: "Location",
       openToWork: "Available for interviews and technical challenges.",
