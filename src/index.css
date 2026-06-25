@@ -256,6 +256,7 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 0.9rem;
+  align-items: stretch;
 }
 
 .project-card {
@@ -263,13 +264,20 @@ p {
   border: 1px solid var(--line);
   border-radius: 0.9rem;
   padding: 1rem;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 0.65rem;
+  height: 100%;
 }
 
 .stack-line {
   font-size: 0.87rem;
   color: #7ee8dc;
+}
+
+.project-actions {
+  margin-top: auto;
+  padding-top: 0.6rem;
 }
 
 .project-actions,
