@@ -8,29 +8,29 @@ export const copyByLanguage: Record<Language, Copy> = {
       contact: "Contacto",
     },
     hero: {
-      badge: "Full Stack Developer | React + Node",
+      badge: "Tecnología | Desarrollo | Integraciones",
       title: "Maximiliano Quintana",
       subtitle:
-        "Desarrollador Fullstack con experiencia en React, TypeScript, Node.js, APIs e integraciones. Combino experiencia profesional en desarrollo backend/SuiteCRM con más de 12 años previos en tecnología, soporte, infraestructura y liderazgo técnico.",
+        "Profesional de tecnología especializado en desarrollo de software, integraciones, automatización y liderazgo técnico de proyectos. Combino experiencia fullstack con más de 12 años en soporte, infraestructura, operaciones y trabajo con usuarios.",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Contactar",
-      ctaResume: "Descargar CV",
+      ctaResume: "Descargar CV — Desarrollo de Software",
       resumeFileName: "maximiliano-quintana-resume-es.pdf",
     },
     about: {
       title: "Perfil profesional",
       intro:
-        "Fullstack Developer con experiencia en desarrollo de soluciones web reales, integrando frontend, backend, APIs, bases de datos y servicios externos.",
+        "Profesional de tecnología con experiencia en desarrollo de soluciones web, integraciones entre sistemas y coordinación técnica de iniciativas de punta a punta.",
       points: [
-        "Experiencia profesional en desarrollo backend, SuiteCRM, integraciones de APIs y webhooks.",
-        "Proyectos fullstack con React, TypeScript, Node.js, Firebase, Vercel Functions y Mercado Pago.",
-        "Más de 12 años de experiencia previa en tecnología, soporte, infraestructura, liderazgo técnico y contacto con usuarios.",
+        "Experiencia profesional en desarrollo backend, SuiteCRM, APIs, webhooks y automatización de procesos.",
+        "Proyectos fullstack con React, TypeScript, Node.js, Firebase, Supabase, Vercel Functions y Mercado Pago.",
+        "Más de 12 años de experiencia previa en tecnología, soporte, infraestructura, operaciones, liderazgo técnico y contacto con usuarios.",
       ],
     },
     projects: {
       title: "Proyectos destacados",
       intro:
-        "Soluciones desarrolladas de punta a punta, desde aplicaciones frontend hasta productos completos con backend, integraciones y despliegue en producción.",
+        "Soluciones desarrolladas de punta a punta, desde aplicaciones frontend hasta productos completos con backend, integraciones, seguridad y despliegue en producción.",
       actions: {
         live: "Ver demo",
         repo: "Repositorio",
@@ -79,10 +79,10 @@ export const copyByLanguage: Record<Language, Copy> = {
     contact: {
       title: "Contacto",
       intro:
-        "Estoy abierto a nuevas oportunidades como Fullstack Developer, especialmente en proyectos con React, Node.js, APIs e integraciones.",
+        "Estoy abierto a oportunidades en desarrollo de software, integraciones, automatización y liderazgo técnico de proyectos.",
       emailLabel: "Email",
       locationLabel: "Ubicación",
-      openToWork: "Disponible para entrevistas y desafíos técnicos.",
+      openToWork: "Disponible para entrevistas y nuevos desafíos profesionales.",
     },
     footer: "Construido con React + TypeScript + Vite",
   },
@@ -93,29 +93,29 @@ export const copyByLanguage: Record<Language, Copy> = {
       contact: "Contact",
     },
     hero: {
-      badge: "Full Stack Developer | React + Node",
+      badge: "Technology | Development | Integrations",
       title: "Maximiliano Quintana",
       subtitle:
-        "Fullstack Developer with experience in React, TypeScript, Node.js, APIs, and integrations. I combine professional backend/SuiteCRM development experience with 12+ years in technology, support, infrastructure, and technical leadership.",
+        "Technology professional specialized in software development, integrations, automation, and technical project leadership. I combine fullstack experience with 12+ years in support, infrastructure, operations, and user-facing roles.",
       ctaPrimary: "View projects",
       ctaSecondary: "Contact me",
-      ctaResume: "Download Resume",
+      ctaResume: "Download Resume — Software Development",
       resumeFileName: "maximiliano-quintana-resume-en.pdf",
     },
     about: {
       title: "Professional profile",
       intro:
-        "Fullstack Developer experienced in building real web solutions, integrating frontend, backend, APIs, databases, and third-party services.",
+        "Technology professional experienced in web solutions, systems integration, and technical coordination of end-to-end initiatives.",
       points: [
-        "Professional experience in backend development, SuiteCRM, API integrations, and webhooks.",
-        "Fullstack projects with React, TypeScript, Node.js, Firebase, Vercel Functions, and Mercado Pago.",
-        "12+ years of previous experience in technology, support, infrastructure, technical leadership, and user-facing roles.",
+        "Professional experience in backend development, SuiteCRM, APIs, webhooks, and process automation.",
+        "Fullstack projects with React, TypeScript, Node.js, Firebase, Supabase, Vercel Functions, and Mercado Pago.",
+        "12+ years of previous experience in technology, support, infrastructure, operations, technical leadership, and user-facing roles.",
       ],
     },
     projects: {
       title: "Featured projects",
       intro:
-        "End-to-end solutions ranging from frontend applications to complete products with backend logic, integrations, and production deployment.",
+        "End-to-end solutions ranging from frontend applications to complete products with backend logic, integrations, security, and production deployment.",
       actions: {
         live: "Live",
         repo: "Repo",
@@ -164,10 +164,10 @@ export const copyByLanguage: Record<Language, Copy> = {
     contact: {
       title: "Contact",
       intro:
-        "I am open to new opportunities as a Fullstack Developer, especially in projects involving React, Node.js, APIs, and integrations.",
+        "I am open to opportunities in software development, integrations, automation, and technical project leadership.",
       emailLabel: "Email",
       locationLabel: "Location",
-      openToWork: "Available for interviews and technical challenges.",
+      openToWork: "Available for interviews and new professional challenges.",
     },
     footer: "Built with React + TypeScript + Vite",
   },
