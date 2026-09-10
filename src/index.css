@@ -270,9 +270,86 @@ p {
   height: 100%;
 }
 
-.stack-line {
-  font-size: 0.87rem;
+.project-card-featured {
+  grid-column: 1 / -1;
+  padding: clamp(1.1rem, 3vw, 1.55rem);
+  border-color: rgba(51, 243, 224, 0.35);
+  background:
+    radial-gradient(
+      circle at 100% 0%,
+      rgba(51, 243, 224, 0.12),
+      transparent 38%
+    ),
+    rgba(12, 19, 31, 0.98);
+}
+
+.project-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.project-status {
+  display: inline-flex;
+  padding: 0.28rem 0.65rem;
+  border: 1px solid rgba(255, 190, 59, 0.38);
+  border-radius: 999px;
+  color: var(--amber);
+  background: rgba(255, 190, 59, 0.07);
+  font-size: 0.78rem;
+  line-height: 1.35;
+}
+
+.project-role {
+  color: var(--cyan);
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.project-highlights {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.65rem;
+  margin: 0.25rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-highlights li {
+  padding: 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 0.7rem;
+  color: var(--text-soft);
+  background: rgba(3, 7, 14, 0.48);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.project-highlights li::before {
+  content: "✓";
+  color: var(--cyan);
+  margin-right: 0.45rem;
+  font-weight: 700;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tech-stack li {
+  padding: 0.22rem 0.5rem;
+  border: 1px solid rgba(51, 243, 224, 0.2);
+  border-radius: 999px;
   color: #7ee8dc;
+  background: rgba(51, 243, 224, 0.04);
+  font-size: 0.78rem;
 }
 
 .project-actions {
@@ -288,11 +365,84 @@ p {
 }
 
 .project-actions a,
-.social-links a {
+.social-links a,
+.project-case-study summary {
   border: 1px solid var(--line);
   padding: 0.34rem 0.66rem;
   border-radius: 0.6rem;
   font-size: 0.9rem;
+}
+
+.project-case-study {
+  margin-top: 0.35rem;
+  border-top: 1px solid var(--line);
+  padding-top: 0.85rem;
+}
+
+.project-case-study summary {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-main);
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.project-case-study summary::-webkit-details-marker {
+  display: none;
+}
+
+.project-case-study summary::after {
+  content: "+";
+  margin-left: 0.5rem;
+  color: var(--cyan);
+  font-size: 1.05rem;
+}
+
+.project-case-study[open] summary::after {
+  content: "−";
+}
+
+.project-case-study summary:hover,
+.project-case-study summary:focus-visible {
+  color: var(--cyan);
+  border-color: rgba(51, 243, 224, 0.45);
+}
+
+.project-case-study summary:focus-visible {
+  outline: 2px solid var(--cyan);
+  outline-offset: 3px;
+}
+
+.case-study-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+.case-study-grid section {
+  display: grid;
+  align-content: start;
+  gap: 0.45rem;
+}
+
+.case-study-grid h4 {
+  margin: 0;
+  color: var(--text-main);
+  font-family: "Sora", sans-serif;
+  font-size: 0.92rem;
+}
+
+.case-study-grid p {
+  font-size: 0.88rem;
+}
+
+@media (max-width: 760px) {
+  .project-highlights,
+  .case-study-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .contact-card {

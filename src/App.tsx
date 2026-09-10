@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Language } from "./types/portfolio";
 import { copyByLanguage } from "./i18n/copy";
 import { Header } from "./components/Header";
@@ -12,6 +12,10 @@ import { profileConfig } from "./config/profile";
 function App() {
   const [language, setLanguage] = useState<Language>("es");
   const copy = useMemo(() => copyByLanguage[language], [language]);
+
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
 
   return (
     <div className="app-shell">

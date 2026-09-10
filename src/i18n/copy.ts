@@ -34,8 +34,49 @@ export const copyByLanguage: Record<Language, Copy> = {
       actions: {
         live: "Ver demo",
         repo: "Repositorio",
+        caseStudy: "Ver caso de estudio",
       },
       items: [
+        {
+          name: "PSICOAPOYO | Plataforma de gestión clínica",
+          status: "MVP clínico seguro · En desarrollo",
+          role: "Dirección técnica y producto · Desarrollo full stack",
+          description:
+            "Plataforma web en desarrollo para la operación segura de una pequeña clínica psicológica de Perú, con especial atención al acceso clínico, la privacidad y la trazabilidad.",
+          stack: [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "PostgreSQL",
+            "Supabase",
+            "RLS",
+            "Vercel",
+            "CI/CD",
+          ],
+          featured: true,
+          highlights: [
+            "Acceso por roles y asignación profesional–paciente con políticas de mínimo privilegio.",
+            "Consentimientos versionados, agenda segura, anamnesis de adultos y auditoría.",
+            "Arquitectura, validación funcional y QA orientados a un dominio de datos sensibles.",
+          ],
+          caseStudy: [
+            {
+              title: "El desafío",
+              body:
+                "Transformar la operativa de una clínica pequeña en un producto digital que mantenga separados los flujos administrativos y clínicos, proteja la información sensible y permita evolucionar el sistema sin perder trazabilidad.",
+            },
+            {
+              title: "Mi contribución",
+              body:
+                "Dirijo el producto y la ejecución técnica: convierto necesidades clínicas y operativas en alcance implementable, reviso arquitectura y código, defino controles de acceso, realizo QA y priorizo riesgos antes de aprobar cada entrega.",
+            },
+            {
+              title: "Alcance implementado",
+              body:
+                "Navegación y permisos por rol, asignación segura de pacientes a profesionales, consentimientos inmutables con aceptación y revocación trazables, agenda y bloqueos protegidos, anamnesis de adultos, gestión de cuentas y eventos de auditoría.",
+            },
+          ],
+        },
         {
           name: "Soledad Cedres | Plataforma de reservas",
           description:
@@ -119,8 +160,49 @@ export const copyByLanguage: Record<Language, Copy> = {
       actions: {
         live: "Live",
         repo: "Repo",
+        caseStudy: "View case study",
       },
       items: [
+        {
+          name: "PSICOAPOYO | Clinical Management Platform",
+          status: "Secure clinical MVP · In development",
+          role: "Technical and product leadership · Full-stack development",
+          description:
+            "Web platform under development for the secure operation of a small psychology clinic in Peru, with a strong focus on clinical access, privacy, and traceability.",
+          stack: [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "PostgreSQL",
+            "Supabase",
+            "RLS",
+            "Vercel",
+            "CI/CD",
+          ],
+          featured: true,
+          highlights: [
+            "Role-based access and professional–patient assignment under least-privilege policies.",
+            "Versioned consent, secure scheduling, adult intake records, and auditing.",
+            "Architecture, functional validation, and QA designed for a sensitive-data domain.",
+          ],
+          caseStudy: [
+            {
+              title: "The challenge",
+              body:
+                "Turn a small clinic's day-to-day operation into a digital product that separates administrative and clinical workflows, protects sensitive information, and can evolve without losing traceability.",
+            },
+            {
+              title: "My contribution",
+              body:
+                "I lead product and technical delivery: translating clinical and operational needs into implementable scope, reviewing architecture and code, defining access controls, performing QA, and prioritizing risks before approving each release.",
+            },
+            {
+              title: "Implemented scope",
+              body:
+                "Role-based navigation and permissions, secure patient-to-professional assignment, immutable consent with traceable acceptance and revocation, protected scheduling and blocks, adult intake records, account management, and audit events.",
+            },
+          ],
+        },
         {
           name: "Soledad Cedres | Booking Platform",
           description:
