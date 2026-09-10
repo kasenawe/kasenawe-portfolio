@@ -4,8 +4,16 @@ export type Project = {
   name: string;
   description: string;
   stack: string[];
-  liveUrl: string;
-  repoUrl: string;
+  liveUrl?: string;
+  repoUrl?: string;
+  featured?: boolean;
+  status?: string;
+  role?: string;
+  highlights?: string[];
+  caseStudy?: {
+    title: string;
+    body: string;
+  }[];
 };
 
 export type Copy = {
@@ -34,6 +42,7 @@ export type Copy = {
     actions: {
       live: string;
       repo: string;
+      caseStudy: string;
     };
     items: Project[];
   };
