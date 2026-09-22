@@ -11,7 +11,7 @@ export const copyByLanguage: Record<Language, Copy> = {
       badge: "Tecnología | Desarrollo | Integraciones",
       title: "Maximiliano Quintana",
       subtitle:
-        "Profesional de tecnología especializado en desarrollo de software, integraciones, automatización y liderazgo técnico de proyectos. Combino experiencia fullstack con más de 12 años en soporte, infraestructura, operaciones y trabajo con usuarios.",
+        "Desarrollador full-stack con casi 3 años de experiencia en aplicaciones web y móviles, APIs e integraciones empresariales. Combino desarrollo de software con una trayectoria previa de más de una década en infraestructura y operaciones IT, y actualmente lidero el desarrollo técnico de PSICOAPOYO.",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Contactar",
       ctaResume: "Descargar CV — Desarrollo de Software",
@@ -24,7 +24,7 @@ export const copyByLanguage: Record<Language, Copy> = {
       points: [
         "Experiencia profesional en desarrollo backend, SuiteCRM, APIs, webhooks y automatización de procesos.",
         "Proyectos fullstack con React, TypeScript, Node.js, Firebase, Supabase, Vercel Functions y Mercado Pago.",
-        "Más de 12 años de experiencia previa en tecnología, soporte, infraestructura, operaciones, liderazgo técnico y contacto con usuarios.",
+        "Trayectoria previa de más de una década en tecnología, soporte, infraestructura y operaciones, con experiencia en coordinación técnica y trabajo directo con usuarios.",
       ],
     },
     projects: {
@@ -137,7 +137,7 @@ export const copyByLanguage: Record<Language, Copy> = {
       badge: "Technology | Development | Integrations",
       title: "Maximiliano Quintana",
       subtitle:
-        "Technology professional specialized in software development, integrations, automation, and technical project leadership. I combine fullstack experience with 12+ years in support, infrastructure, operations, and user-facing roles.",
+        "Full-stack developer with nearly 3 years of experience in web and mobile applications, REST APIs, and enterprise integrations. I combine software development with more than a decade of prior experience in IT infrastructure and operations, and I currently lead the technical development of PSICOAPOYO.",
       ctaPrimary: "View projects",
       ctaSecondary: "Contact me",
       ctaResume: "Download Resume — Software Development",
@@ -150,7 +150,7 @@ export const copyByLanguage: Record<Language, Copy> = {
       points: [
         "Professional experience in backend development, SuiteCRM, APIs, webhooks, and process automation.",
         "Fullstack projects with React, TypeScript, Node.js, Firebase, Supabase, Vercel Functions, and Mercado Pago.",
-        "12+ years of previous experience in technology, support, infrastructure, operations, technical leadership, and user-facing roles.",
+        "More than a decade of prior experience in technology, support, infrastructure, and operations, including technical coordination and direct work with users.",
       ],
     },
     projects: {
