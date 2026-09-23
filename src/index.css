@@ -286,13 +286,16 @@ p {
   border-color: rgba(51, 243, 224, 0.48);
 }
 
-.skill-index {
-  display: block;
-  margin-bottom: 1.35rem;
+.skill-icon {
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1.1rem;
   color: var(--cyan);
-  font-size: 0.82rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+  border: 1px solid rgba(51, 243, 224, 0.3);
+  border-radius: 0.8rem;
+  background: rgba(51, 243, 224, 0.07);
 }
 
 .skill-card h3 {
@@ -341,7 +344,7 @@ p {
 @media (max-width: 650px) {
   .skills-grid { grid-template-columns: 1fr; }
   .skills-footer { align-items: flex-start; flex-direction: column; }
-  .skill-index { margin-bottom: 0.8rem; }
+  .skill-icon { margin-bottom: 0.8rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
