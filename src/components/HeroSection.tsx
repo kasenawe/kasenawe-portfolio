@@ -23,7 +23,8 @@ export function HeroSection({ hero }: Props) {
         <a
           className="btn btn-secondary"
           href={`${import.meta.env.BASE_URL}resume/${hero.resumeFileName}`}
-          download
+          target="_blank"
+          rel="noreferrer"
         >
           {hero.ctaResume}
         </a>

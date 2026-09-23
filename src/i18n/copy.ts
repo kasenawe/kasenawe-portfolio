@@ -14,7 +14,7 @@ export const copyByLanguage: Record<Language, Copy> = {
         "Desarrollador full-stack con casi 3 años de experiencia en aplicaciones web y móviles, APIs e integraciones empresariales. Combino desarrollo de software con una trayectoria previa de más de una década en infraestructura y operaciones IT, y actualmente lidero el desarrollo técnico de PSICOAPOYO.",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Contactar",
-      ctaResume: "Descargar CV — Desarrollo de Software",
+      ctaResume: "Ver CV",
       resumeFileName: "maximiliano-quintana-resume-es.pdf",
     },
     about: {
@@ -62,18 +62,15 @@ export const copyByLanguage: Record<Language, Copy> = {
           caseStudy: [
             {
               title: "El desafío",
-              body:
-                "Transformar la operativa de una clínica pequeña en un producto digital que mantenga separados los flujos administrativos y clínicos, proteja la información sensible y permita evolucionar el sistema sin perder trazabilidad.",
+              body: "Transformar la operativa de una clínica pequeña en un producto digital que mantenga separados los flujos administrativos y clínicos, proteja la información sensible y permita evolucionar el sistema sin perder trazabilidad.",
             },
             {
               title: "Mi contribución",
-              body:
-                "Dirijo el producto y la ejecución técnica: convierto necesidades clínicas y operativas en alcance implementable, reviso arquitectura y código, defino controles de acceso, realizo QA y priorizo riesgos antes de aprobar cada entrega.",
+              body: "Dirijo el producto y la ejecución técnica: convierto necesidades clínicas y operativas en alcance implementable, reviso arquitectura y código, defino controles de acceso, realizo QA y priorizo riesgos antes de aprobar cada entrega.",
             },
             {
               title: "Alcance implementado",
-              body:
-                "Navegación y permisos por rol, asignación segura de pacientes a profesionales, consentimientos inmutables con aceptación y revocación trazables, agenda y bloqueos protegidos, anamnesis de adultos, gestión de cuentas y eventos de auditoría.",
+              body: "Navegación y permisos por rol, asignación segura de pacientes a profesionales, consentimientos inmutables con aceptación y revocación trazables, agenda y bloqueos protegidos, anamnesis de adultos, gestión de cuentas y eventos de auditoría.",
             },
           ],
         },
@@ -123,7 +120,8 @@ export const copyByLanguage: Record<Language, Copy> = {
         "Estoy abierto a oportunidades en desarrollo de software, integraciones, automatización y liderazgo técnico de proyectos.",
       emailLabel: "Email",
       locationLabel: "Ubicación",
-      openToWork: "Disponible para entrevistas y nuevos desafíos profesionales.",
+      openToWork:
+        "Disponible para entrevistas y nuevos desafíos profesionales.",
     },
     footer: "Construido con React + TypeScript + Vite",
   },
@@ -140,7 +138,7 @@ export const copyByLanguage: Record<Language, Copy> = {
         "Full-stack developer with nearly 3 years of experience in web and mobile applications, REST APIs, and enterprise integrations. I combine software development with more than a decade of prior experience in IT infrastructure and operations, and I currently lead the technical development of PSICOAPOYO.",
       ctaPrimary: "View projects",
       ctaSecondary: "Contact me",
-      ctaResume: "Download Resume — Software Development",
+      ctaResume: "View Resume",
       resumeFileName: "maximiliano-quintana-resume-en.pdf",
     },
     about: {
@@ -188,18 +186,15 @@ export const copyByLanguage: Record<Language, Copy> = {
           caseStudy: [
             {
               title: "The challenge",
-              body:
-                "Turn a small clinic's day-to-day operation into a digital product that separates administrative and clinical workflows, protects sensitive information, and can evolve without losing traceability.",
+              body: "Turn a small clinic's day-to-day operation into a digital product that separates administrative and clinical workflows, protects sensitive information, and can evolve without losing traceability.",
             },
             {
               title: "My contribution",
-              body:
-                "I lead product and technical delivery: translating clinical and operational needs into implementable scope, reviewing architecture and code, defining access controls, performing QA, and prioritizing risks before approving each release.",
+              body: "I lead product and technical delivery: translating clinical and operational needs into implementable scope, reviewing architecture and code, defining access controls, performing QA, and prioritizing risks before approving each release.",
             },
             {
               title: "Implemented scope",
-              body:
-                "Role-based navigation and permissions, secure patient-to-professional assignment, immutable consent with traceable acceptance and revocation, protected scheduling and blocks, adult intake records, account management, and audit events.",
+              body: "Role-based navigation and permissions, secure patient-to-professional assignment, immutable consent with traceable acceptance and revocation, protected scheduling and blocks, adult intake records, account management, and audit events.",
             },
           ],
         },
