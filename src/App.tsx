@@ -4,6 +4,7 @@ import { copyByLanguage } from "./i18n/copy";
 import { Header } from "./components/Header";
 import { HeroSection } from "./components/HeroSection";
 import { AboutSection } from "./components/AboutSection";
+import { SkillsSection } from "./components/SkillsSection";
 import { ProjectsSection } from "./components/ProjectsSection";
 import { ContactSection } from "./components/ContactSection";
 import { Footer } from "./components/Footer";
@@ -23,6 +24,7 @@ function App() {
       <main id="top">
         <HeroSection hero={copy.hero} />
         <AboutSection about={copy.about} />
+        <SkillsSection skills={copy.skills} />
         <ProjectsSection projects={copy.projects} />
         <ContactSection contact={copy.contact} profile={profileConfig} />
       </main>

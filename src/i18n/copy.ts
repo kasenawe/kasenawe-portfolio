@@ -4,6 +4,7 @@ export const copyByLanguage: Record<Language, Copy> = {
   es: {
     nav: {
       about: "Sobre mí",
+      skills: "Tecnologías",
       projects: "Proyectos",
       contact: "Contacto",
     },
@@ -26,6 +27,18 @@ export const copyByLanguage: Record<Language, Copy> = {
         "Proyectos fullstack con React, TypeScript, Node.js, Firebase, Supabase, Vercel Functions y Mercado Pago.",
         "Trayectoria previa de más de una década en tecnología, soporte, infraestructura y operaciones, con experiencia en coordinación técnica y trabajo directo con usuarios.",
       ],
+    },
+    skills: {
+      title: "Tecnologías y experiencia",
+      intro: "Herramientas que aplico en productos reales, desde la interfaz hasta los datos y el despliegue.",
+      groups: [
+        { title: "Desarrollo web", items: ["React", "Next.js", "TypeScript", "Svelte"] },
+        { title: "Backend e integraciones", items: ["Node.js", "Express", "PHP", "APIs REST"] },
+        { title: "Datos y seguridad", items: ["PostgreSQL", "MySQL", "MongoDB", "Supabase", "RLS"] },
+        { title: "Entrega", items: ["Git", "GitHub", "Vercel", "CI/CD"] },
+      ],
+      evidence: "Experiencia aplicada en sistemas de gestión, aplicaciones móviles y PSICOAPOYO.",
+      cta: "Ver proyectos",
     },
     projects: {
       title: "Proyectos destacados",
@@ -128,6 +141,7 @@ export const copyByLanguage: Record<Language, Copy> = {
   en: {
     nav: {
       about: "About",
+      skills: "Skills",
       projects: "Projects",
       contact: "Contact",
     },
@@ -150,6 +164,18 @@ export const copyByLanguage: Record<Language, Copy> = {
         "Fullstack projects with React, TypeScript, Node.js, Firebase, Supabase, Vercel Functions, and Mercado Pago.",
         "More than a decade of prior experience in technology, support, infrastructure, and operations, including technical coordination and direct work with users.",
       ],
+    },
+    skills: {
+      title: "Technologies and experience",
+      intro: "Tools I use in real products, from the interface to data and deployment.",
+      groups: [
+        { title: "Web development", items: ["React", "Next.js", "TypeScript", "Svelte"] },
+        { title: "Backend and integrations", items: ["Node.js", "Express", "PHP", "REST APIs"] },
+        { title: "Data and security", items: ["PostgreSQL", "MySQL", "MongoDB", "Supabase", "RLS"] },
+        { title: "Delivery", items: ["Git", "GitHub", "Vercel", "CI/CD"] },
+      ],
+      evidence: "Experience applied to management systems, mobile applications, and PSICOAPOYO.",
+      cta: "Explore projects",
     },
     projects: {
       title: "Featured projects",

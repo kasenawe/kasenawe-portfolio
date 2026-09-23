@@ -94,6 +94,7 @@ body::before {
 .site-nav {
   display: flex;
   gap: 1.2rem;
+  flex-wrap: wrap;
 }
 
 .site-nav a,
@@ -242,6 +243,110 @@ p {
   padding: 1.35rem;
   display: grid;
   gap: 0.9rem;
+}
+
+.skills-section {
+  gap: 1.35rem;
+  padding: clamp(1.35rem, 4vw, 2.3rem);
+  border-color: rgba(51, 243, 224, 0.23);
+  background:
+    radial-gradient(circle at 100% 0%, rgba(51, 243, 224, 0.1), transparent 46%),
+    var(--bg-panel);
+  scroll-margin-top: 6rem;
+}
+
+.skills-heading {
+  display: flex;
+  gap: 1.15rem;
+  align-items: flex-start;
+}
+
+.skills-heading p {
+  margin-top: 0.45rem;
+  max-width: 56ch;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.skill-card {
+  min-width: 0;
+  padding: 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  background: linear-gradient(145deg, rgba(18, 32, 49, 0.94), rgba(8, 15, 27, 0.94));
+  transition: border-color 180ms ease, transform 180ms ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(51, 243, 224, 0.48);
+}
+
+.skill-index {
+  display: block;
+  margin-bottom: 1.35rem;
+  color: var(--cyan);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.skill-card h3 {
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.48rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.85rem 0 0;
+}
+
+.skill-list li {
+  padding: 0.38rem 0.7rem;
+  border: 1px solid rgba(51, 243, 224, 0.22);
+  border-radius: 999px;
+  background: rgba(51, 243, 224, 0.055);
+  color: #c7f8f2;
+  font-size: 0.88rem;
+  line-height: 1.35;
+}
+
+.skills-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1.15rem;
+}
+
+.skills-footer a {
+  color: var(--cyan);
+  text-decoration: none;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.skills-footer a:hover { text-decoration: underline; }
+.skills-footer a:focus-visible { outline: 2px solid var(--cyan); outline-offset: 4px; }
+
+@media (max-width: 650px) {
+  .skills-grid { grid-template-columns: 1fr; }
+  .skills-footer { align-items: flex-start; flex-direction: column; }
+  .skill-index { margin-bottom: 0.8rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .skill-card { transition: none; }
+  .skill-card:hover { transform: none; }
 }
 
 .bullet-list {
@@ -491,6 +596,8 @@ p {
   .site-nav {
     width: 100%;
     justify-content: center;
+    column-gap: 0.95rem;
+    row-gap: 0.5rem;
   }
 
   main {

@@ -19,6 +19,7 @@ export type Project = {
 export type Copy = {
   nav: {
     about: string;
+    skills: string;
     projects: string;
     contact: string;
   };
@@ -35,6 +36,13 @@ export type Copy = {
     title: string;
     intro: string;
     points: string[];
+  };
+  skills: {
+    title: string;
+    intro: string;
+    groups: { title: string; items: string[] }[];
+    evidence: string;
+    cta: string;
   };
   projects: {
     title: string;

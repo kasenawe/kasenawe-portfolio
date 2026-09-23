@@ -15,6 +15,7 @@ export function Header({ nav, language, setLanguage }: Props) {
 
       <nav className="site-nav" aria-label="Main navigation">
         <a href="#about">{nav.about}</a>
+        <a href="#skills">{nav.skills}</a>
         <a href="#projects">{nav.projects}</a>
         <a href="#contact">{nav.contact}</a>
       </nav>
