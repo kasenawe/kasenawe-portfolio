@@ -9,10 +9,10 @@ export const copyByLanguage: Record<Language, Copy> = {
       contact: "Contacto",
     },
     hero: {
-      badge: "Tecnología | Desarrollo | Integraciones",
+      badge: "Sistemas | Soporte de aplicaciones | Integraciones",
       title: "Maximiliano Quintana",
       subtitle:
-        "Desarrollador full-stack con casi 3 años de experiencia en aplicaciones web y móviles, APIs e integraciones empresariales. Combino desarrollo de software con una trayectoria previa de más de una década en infraestructura y operaciones IT, y actualmente lidero el desarrollo técnico de PSICOAPOYO.",
+        "Profesional de tecnología con más de 13 años de experiencia combinando soporte de aplicaciones, sistemas empresariales, infraestructura, integraciones y desarrollo de software. Conecto necesidades de negocio con soluciones técnicas: analizo problemas, diagnostico incidentes, integro sistemas y participo en la implementación de mejoras.",
       ctaPrimary: "Ver proyectos",
       ctaSecondary: "Contactar",
       ctaResume: "Ver CV",
@@ -21,21 +21,23 @@ export const copyByLanguage: Record<Language, Copy> = {
     about: {
       title: "Perfil profesional",
       intro:
-        "Profesional de tecnología con experiencia en desarrollo de soluciones web, integraciones entre sistemas y coordinación técnica de iniciativas de punta a punta.",
+        "Profesional técnico con experiencia en aplicaciones empresariales, análisis funcional y resolución de problemas. Combino una trayectoria en soporte e infraestructura con desarrollo e integración de software para comprender procesos y ayudar a que los sistemas funcionen de forma confiable.",
       points: [
-        "Experiencia profesional en desarrollo backend, SuiteCRM, APIs, webhooks y automatización de procesos.",
-        "Proyectos fullstack con React, TypeScript, Node.js, Firebase, Supabase, Vercel Functions y Mercado Pago.",
-        "Trayectoria previa de más de una década en tecnología, soporte, infraestructura y operaciones, con experiencia en coordinación técnica y trabajo directo con usuarios.",
+        "Soporte de aplicaciones, gestión de incidentes y trabajo con usuarios y equipos técnicos.",
+        "Integraciones mediante APIs REST, pruebas con Postman y diagnóstico de datos con SQL.",
+        "Desarrollo y mantenimiento de aplicaciones empresariales con PHP, SuiteCRM y MySQL.",
+        "Experiencia en ServiceNow ITSM, infraestructura y coordinación de procesos empresariales.",
+        "Desarrollo de soluciones web para clientes con tecnologías como React, TypeScript y Supabase.",
       ],
     },
     skills: {
       title: "Tecnologías y experiencia",
-      intro: "Herramientas que aplico en productos reales, desde la interfaz hasta los datos y el despliegue.",
+      intro: "Herramientas y conocimientos aplicados en soporte, sistemas empresariales, integraciones y desarrollo.",
       groups: [
-        { title: "Desarrollo web", items: ["React", "Next.js", "TypeScript", "Svelte"] },
-        { title: "Backend e integraciones", items: ["Node.js", "Express", "PHP", "APIs REST"] },
-        { title: "Datos y seguridad", items: ["PostgreSQL", "MySQL", "MongoDB", "Supabase", "RLS"] },
-        { title: "Entrega", items: ["Git", "GitHub", "Vercel", "CI/CD"] },
+        { title: "Soporte y sistemas", items: ["ServiceNow ITSM", "Gestión de incidentes", "Troubleshooting"] },
+        { title: "Integraciones y datos", items: ["APIs REST", "Postman", "SQL", "MySQL", "PostgreSQL"] },
+        { title: "Desarrollo empresarial", items: ["PHP", "SuiteCRM", "JavaScript", "TypeScript", "Svelte"] },
+        { title: "Desarrollo web y entrega", items: ["React", "Next.js", "Node.js", "Supabase", "Git", "Vercel"] },
       ],
       evidence: "Experiencia aplicada en sistemas de gestión, aplicaciones móviles y PSICOAPOYO.",
       cta: "Ver proyectos",
@@ -43,7 +45,7 @@ export const copyByLanguage: Record<Language, Copy> = {
     projects: {
       title: "Proyectos destacados",
       intro:
-        "Soluciones desarrolladas de punta a punta, desde aplicaciones frontend hasta productos completos con backend, integraciones, seguridad y despliegue en producción.",
+        "Proyectos que combinan análisis de requerimientos, desarrollo, integraciones e implementación, con distintos estados de avance y despliegue.",
       actions: {
         live: "Ver demo",
         repo: "Repositorio",
@@ -52,7 +54,7 @@ export const copyByLanguage: Record<Language, Copy> = {
       items: [
         {
           name: "PSICOAPOYO | Plataforma de gestión clínica",
-          status: "MVP clínico seguro · En desarrollo",
+          status: "En desarrollo · Staging",
           role: "Dirección técnica y producto · Desarrollo full stack",
           description:
             "Plataforma web en desarrollo para la operación segura de una pequeña clínica psicológica de Perú, con especial atención al acceso clínico, la privacidad y la trazabilidad.",
@@ -105,7 +107,7 @@ export const copyByLanguage: Record<Language, Copy> = {
         {
           name: "Ecommerce Joyería",
           description:
-            "Ecommerce para Uruguay con catálogo dinámico, variantes de productos, panel administrativo, backend en Node.js e integración con Mercado Pago.",
+            "Proyecto de ecommerce para Uruguay con catálogo dinámico, variantes de productos, panel administrativo, backend en Node.js e integración con Mercado Pago.",
           stack: [
             "React",
             "TypeScript",
@@ -130,7 +132,7 @@ export const copyByLanguage: Record<Language, Copy> = {
     contact: {
       title: "Contacto",
       intro:
-        "Estoy abierto a oportunidades en desarrollo de software, integraciones, automatización y liderazgo técnico de proyectos.",
+        "Estoy abierto a oportunidades en soporte de aplicaciones, análisis de sistemas, integraciones, implementación técnica y desarrollo de software empresarial.",
       emailLabel: "Email",
       locationLabel: "Ubicación",
       openToWork:
@@ -146,10 +148,10 @@ export const copyByLanguage: Record<Language, Copy> = {
       contact: "Contact",
     },
     hero: {
-      badge: "Technology | Development | Integrations",
+      badge: "Systems | Application Support | Integrations",
       title: "Maximiliano Quintana",
       subtitle:
-        "Full-stack developer with nearly 3 years of experience in web and mobile applications, REST APIs, and enterprise integrations. I combine software development with more than a decade of prior experience in IT infrastructure and operations, and I currently lead the technical development of PSICOAPOYO.",
+        "Technology professional with over 13 years of experience combining application support, enterprise systems, infrastructure, integrations, and software development. I connect business needs with technical solutions by analyzing problems, troubleshooting incidents, integrating systems, and implementing improvements.",
       ctaPrimary: "View projects",
       ctaSecondary: "Contact me",
       ctaResume: "View Resume",
@@ -158,21 +160,23 @@ export const copyByLanguage: Record<Language, Copy> = {
     about: {
       title: "Professional profile",
       intro:
-        "Technology professional experienced in web solutions, systems integration, and technical coordination of end-to-end initiatives.",
+        "Technology professional experienced in enterprise applications, functional analysis, and troubleshooting. I combine a background in support and infrastructure with software development and integration to understand business processes and help systems operate reliably.",
       points: [
-        "Professional experience in backend development, SuiteCRM, APIs, webhooks, and process automation.",
-        "Fullstack projects with React, TypeScript, Node.js, Firebase, Supabase, Vercel Functions, and Mercado Pago.",
-        "More than a decade of prior experience in technology, support, infrastructure, and operations, including technical coordination and direct work with users.",
+        "Application support, incident management, and collaboration with users and technical teams.",
+        "REST API integrations, endpoint testing with Postman, and data troubleshooting with SQL.",
+        "Development and maintenance of enterprise applications using PHP, SuiteCRM, and MySQL.",
+        "Experience with ServiceNow ITSM, infrastructure, and enterprise processes.",
+        "Development of web solutions for clients using technologies such as React, TypeScript, and Supabase.",
       ],
     },
     skills: {
       title: "Technologies and experience",
-      intro: "Tools I use in real products, from the interface to data and deployment.",
+      intro: "Tools and skills applied to support, enterprise systems, integrations, and development.",
       groups: [
-        { title: "Web development", items: ["React", "Next.js", "TypeScript", "Svelte"] },
-        { title: "Backend and integrations", items: ["Node.js", "Express", "PHP", "REST APIs"] },
-        { title: "Data and security", items: ["PostgreSQL", "MySQL", "MongoDB", "Supabase", "RLS"] },
-        { title: "Delivery", items: ["Git", "GitHub", "Vercel", "CI/CD"] },
+        { title: "Application support and systems", items: ["ServiceNow ITSM", "Incident management", "Troubleshooting"] },
+        { title: "Integrations and data", items: ["REST APIs", "Postman", "SQL", "MySQL", "PostgreSQL"] },
+        { title: "Enterprise development", items: ["PHP", "SuiteCRM", "JavaScript", "TypeScript", "Svelte"] },
+        { title: "Web development and delivery", items: ["React", "Next.js", "Node.js", "Supabase", "Git", "Vercel"] },
       ],
       evidence: "Experience applied to management systems, mobile applications, and PSICOAPOYO.",
       cta: "Explore projects",
@@ -180,7 +184,7 @@ export const copyByLanguage: Record<Language, Copy> = {
     projects: {
       title: "Featured projects",
       intro:
-        "End-to-end solutions ranging from frontend applications to complete products with backend logic, integrations, security, and production deployment.",
+        "Projects combining requirements analysis, development, integrations, and implementation, at different stages of development and deployment.",
       actions: {
         live: "Live",
         repo: "Repo",
@@ -189,7 +193,7 @@ export const copyByLanguage: Record<Language, Copy> = {
       items: [
         {
           name: "PSICOAPOYO | Clinical Management Platform",
-          status: "Secure clinical MVP · In development",
+          status: "In development · Staging",
           role: "Technical and product leadership · Full-stack development",
           description:
             "Web platform under development for the secure operation of a small psychology clinic in Peru, with a strong focus on clinical access, privacy, and traceability.",
@@ -242,7 +246,7 @@ export const copyByLanguage: Record<Language, Copy> = {
         {
           name: "Jewelry Ecommerce",
           description:
-            "Ecommerce platform for Uruguay with dynamic catalog, product variants, admin panel, Node.js backend, and Mercado Pago integration.",
+            "Ecommerce project for Uruguay with a dynamic catalog, product variants, admin panel, Node.js backend, and Mercado Pago integration.",
           stack: [
             "React",
             "TypeScript",
@@ -267,7 +271,7 @@ export const copyByLanguage: Record<Language, Copy> = {
     contact: {
       title: "Contact",
       intro:
-        "I am open to opportunities in software development, integrations, automation, and technical project leadership.",
+        "I am open to opportunities in application support, systems analysis, integrations, technical implementation, and enterprise software development.",
       emailLabel: "Email",
       locationLabel: "Location",
       openToWork: "Available for interviews and new professional challenges.",
